@@ -6,3 +6,4 @@ do
 done
 
 source ~/.zshrc
+source ~/.osx
