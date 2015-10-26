@@ -1,7 +1,7 @@
 ZSH=$HOME/.oh-my-zsh
 ZSH_THEME="robbyrussell"
 
-plugins=(git bower brew npm z)
+plugins=(bower brew composer cp gem git node npm z)
 
 export PATH="/usr/local/bin:$PATH"
 
