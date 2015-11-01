@@ -10,15 +10,9 @@ First we'll need to install [brew](http://brew.sh/):
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
-Then we use `brew` to install `stow` to manage our symlinks:
-
-```
-brew install stow
-```
-
 ## installation
 
-First, clone this repo, then use the `install.sh` script to symlink all our dotfiles to our home directory using `stow`:
+All installation is done via the `install.sh` script. Comment/uncomment the sectiosn relevant to you:
 
 ```
 cd ~
