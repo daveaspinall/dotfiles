@@ -13,4 +13,5 @@ source $ZSH/oh-my-zsh.sh
 . ~/z.sh
 
 # nvm
-source /usr/local/opt/nvm/nvm.sh
+export NVM_DIR="~/.nvm"
+source $NVM_DIR/nvm.sh
