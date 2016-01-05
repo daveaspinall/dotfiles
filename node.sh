@@ -7,8 +7,10 @@ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.29.0/install.sh | b
 # (already added manually)
 # echo "source $(brew --prefix nvm)/nvm.sh" >> zsh/.zshrc
 
-# Install current stable node
-nvm install 0.10
+# Install latest node version, activate it and set as default
+nvm install node
+nvm use node
+nvm alias default node
 
 # Install global node packages
 npm install -g npm@latest
