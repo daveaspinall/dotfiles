@@ -8,6 +8,11 @@ sudo -v
 # Keep-alive: update existing `sudo` time stamp until the script has finished.
 while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 
+# If you get a permissions error on /usr/local, run this:
+# `sudo chown -R $(whoami):admin /usr/local`
+# To fix mysql permissions, run this afterwards:
+# `sudo chown -R _mysql:wheel /usr/local/mysql/data`
+
 # Update and upgrade already-installed formulae
 brew update
 brew upgrade --all
