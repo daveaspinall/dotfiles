@@ -67,6 +67,7 @@ brew install php56 php56-apcu php56-imagick php56-mcrypt php56-xdebug
 
 # Install other useful binaries.
 # brew install ack
+brew install ansible
 # brew install dark-mode
 # brew install exiv2
 brew install git
