@@ -12,7 +12,7 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 
 ## installation
 
-All installation is done via the `install.sh` script. Comment/uncomment the sectiosn relevant to you:
+All installation is done via the `install.sh` script. Comment/uncomment the sections relevant to you:
 
 ```
 cd ~
