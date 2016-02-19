@@ -14,4 +14,4 @@ source $ZSH/oh-my-zsh.sh
 
 # nvm
 export NVM_DIR=~/.nvm
-source $NVM_DIR/nvm.sh
+. $(brew --prefix nvm)/nvm.sh
