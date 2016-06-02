@@ -54,10 +54,11 @@ brew install homebrew/dupes/openssh
 brew install homebrew/dupes/screen
 # brew install homebrew/php/php55 --with-gmp
 
-# Install PHP 5.6
-# Don't forget to add/uncomment the following in `/etc/apache2/httpd.conf`
-# `LoadModule php5_module /usr/local/opt/php56/libexec/apache2/libphp5.so`
-brew install php56 php56-apcu php56-imagick php56-mcrypt php56-xdebug
+# Install PHP 7.0
+# Don't forget to add the following in `/etc/apache2/httpd.conf`
+# after installing `https://github.com/sgotre/sphp-osx`:
+# `LoadModule php7_module /usr/local/lib/libphp7.so`
+brew install php70 php70-apcu php70-imagick php70-mcrypt php70-xdebug
 
 # Install font tools.
 # brew tap bramstein/webfonttools
