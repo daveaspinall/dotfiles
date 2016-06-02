@@ -85,7 +85,7 @@ brew install rename
 # brew install speedtest_cli
 # brew install ssh-copy-id
 brew install stow
-# brew install tree
+brew install tree
 # brew install webkit2png
 # brew install zopfli
 
