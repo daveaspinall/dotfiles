@@ -72,6 +72,7 @@ brew install ansible
 # brew install dark-mode
 # brew install exiv2
 brew install git
+brew install git-flow
 # brew install git-lfs
 # brew install imagemagick --with-webp
 # brew install lua
