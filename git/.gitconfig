@@ -1,3 +1,10 @@
 [user]
-	name = Dave Aspinall
-	email = daveaasp@gmail.com
+    name = Dave Aspinall
+    email = davea@carboncreative.net
+[core]
+    excludesfile = /Users/daveaspinall/.gitignore_global
+    filemode = false
+[filter "lfs"]
+    clean = git-lfs clean %f
+    smudge = git-lfs smudge %f
+    required = true
