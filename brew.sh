@@ -58,7 +58,7 @@ brew install homebrew/dupes/screen
 # Don't forget to add the following in `/etc/apache2/httpd.conf`
 # after installing `https://github.com/sgotre/sphp-osx`:
 # `LoadModule php7_module /usr/local/lib/libphp7.so`
-brew install homebrew/php/php70 homebrew/php/php70-apcu homebrew/php/php70-imagick homebrew/php/php70-mcrypt homebrew/php/php70-xdebug
+brew install homebrew/php/php70 homebrew/php/php70-apcu homebrew/php/php70-imagick homebrew/php/php70-mcrypt homebrew/php/php70-xdebug --with-apache
 
 # Install font tools.
 # brew tap bramstein/webfonttools
