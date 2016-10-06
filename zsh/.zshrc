@@ -4,7 +4,7 @@ ZSH_THEME="daveaspinall"
 
 plugins=(bower brew composer cp gem git node npm nvm z)
 
-export PATH=/usr/local/bin:/usr/local/sbin:$PATH:/Users/daveaspinall/bin
+export PATH=/usr/local/bin:/usr/local/sbin:$PATH
 
 # oh my zsh
 source $ZSH/oh-my-zsh.sh
