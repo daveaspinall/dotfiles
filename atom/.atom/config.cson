@@ -39,6 +39,9 @@
     confirmCheckoutHeadRevision: false
     fontFamily: "SourceCodePro-Light"
     fontSize: 13
+    invisibles:
+      eol: false
+      cr: false
     preferredLineLength: 120
     scrollPastEnd: true
     showInvisibles: true
