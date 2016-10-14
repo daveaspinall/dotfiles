@@ -1,0 +1,53 @@
+"*":
+  Zen:
+    softWrap: true
+    tabs: "multiple"
+  "block-cursor":
+    global:
+      blinkOn: {}
+  core:
+    disabledPackages: [
+      "language-c"
+      "language-clojure"
+      "language-coffee-script"
+      "language-csharp"
+      "language-go"
+      "language-java"
+      "language-mustache"
+      "language-make"
+      "language-objective-c"
+      "language-perl"
+      "language-python"
+      "language-ruby"
+      "language-ruby-on-rails"
+      "language-toml"
+      "angularjs"
+    ]
+    openEmptyEditorOnStart: false
+    telemetryConsent: "no"
+    themes: [
+      "one-dark-ui"
+      "base16-tomorrow-dark-theme"
+    ]
+  "cursor-blink-interval":
+    cursorBlinkInterval: 1200
+  editor:
+    confirmCheckoutHeadRevision: false
+    fontFamily: "SourceCodePro-Light"
+    fontSize: 13
+    preferredLineLength: 120
+    scrollPastEnd: true
+    showInvisibles: true
+    softWrap: true
+    softWrapAtPreferredLineLength: true
+    tabLength: 4
+    tabType: "soft"
+  "exception-reporting":
+    userId: "b9301e45-0712-4ee7-ba90-a7e3f3260eb9"
+  "file-icons":
+    coloured: false
+  "tree-view":
+    hideIgnoredNames: true
+    squashDirectoryNames: true
+  welcome:
+    showOnStartup: false
