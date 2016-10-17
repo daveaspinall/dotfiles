@@ -10,6 +10,7 @@
   'language-postcss'
   'language-vue'
   'linter'
+  'linter-eslint'
   'linter-php'
   'linter-stylelint'
   'parcel'
