@@ -2,6 +2,9 @@
   Zen:
     softWrap: true
     tabs: "multiple"
+  "atom-beautify":
+    general:
+      _analyticsUserId: "ff4f8bf9-2234-4c89-95eb-b500f761310a"
   "block-cursor":
     global:
       blinkOn: {}
@@ -40,15 +43,14 @@
     fontFamily: "SourceCodePro-Light"
     fontSize: 13
     invisibles:
-      eol: false
       cr: false
+      eol: false
     preferredLineLength: 120
     scrollPastEnd: true
     showInvisibles: true
     softWrap: true
     softWrapAtPreferredLineLength: true
     tabLength: 4
-    tabType: "soft"
   "exception-reporting":
     userId: "b9301e45-0712-4ee7-ba90-a7e3f3260eb9"
   "file-icons":
