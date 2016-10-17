@@ -60,3 +60,7 @@
     squashDirectoryNames: true
   welcome:
     showOnStartup: false
+".ini.source":
+  editor:
+    preferredLineLength: 120
+    tabLength: 4
