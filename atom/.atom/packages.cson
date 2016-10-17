@@ -3,6 +3,7 @@
   'atom-beautify'
   'atom-idiomatic-comments-css-snippets'
   'cursor-blink-interval'
+  'editorconfig'
   'emmet'
   'file-icons'
   'highlight-line'
