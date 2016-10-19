@@ -50,7 +50,10 @@
     showInvisibles: true
     softWrap: true
     softWrapAtPreferredLineLength: true
-    tabLength: 4
+    tabLength: 2
+  emmet:
+    extensionsPath: "~/.emmet"
+    formatLineBreaks: false
   "exception-reporting":
     userId: "b9301e45-0712-4ee7-ba90-a7e3f3260eb9"
   "file-icons":
@@ -63,4 +66,4 @@
 ".ini.source":
   editor:
     preferredLineLength: 120
-    tabLength: 4
+    showIndentGuide: false
