@@ -28,6 +28,7 @@
       "welcome"
       "styleguide"
       "metrics"
+      "whitespace"
     ]
     openEmptyEditorOnStart: false
     telemetryConsent: "no"
