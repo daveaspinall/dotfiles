@@ -2,7 +2,6 @@
   'angularjs'
   'atom-beautify'
   'atom-idiomatic-comments-css-snippets'
-  'atom-typescript'
   'cursor-blink-interval'
   'editorconfig'
   'emmet'
