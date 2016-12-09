@@ -29,6 +29,8 @@
       "styleguide"
       "metrics"
       "whitespace"
+      "Zen"
+      "angularjs"
     ]
     openEmptyEditorOnStart: false
     telemetryConsent: "no"
