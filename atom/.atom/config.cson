@@ -61,7 +61,9 @@
     userId: "b9301e45-0712-4ee7-ba90-a7e3f3260eb9"
   "file-icons":
     coloured: false
-  "markdown-preview-plus": {}
+  "markdown-preview-plus":
+    enablePandoc: true
+    pandocPath: "/usr/local/bin/pandoc"
   "tree-view":
     hideIgnoredNames: true
     squashDirectoryNames: true
