@@ -44,7 +44,6 @@
   editor:
     confirmCheckoutHeadRevision: false
     fontFamily: "SourceCodePro-Light"
-    fontSize: 13
     invisibles:
       cr: false
       eol: false
