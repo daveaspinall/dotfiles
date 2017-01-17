@@ -1,6 +1,7 @@
 'packages': [
   'angularjs'
   'atom-beautify'
+  'atom-handlebars'
   'atom-idiomatic-comments-css-snippets'
   'cursor-blink-interval'
   'docblockr'
