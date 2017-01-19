@@ -13,6 +13,7 @@
   'language-vue'
   'linter'
   'linter-eslint'
+  'linter-jshint'
   'linter-php'
   'linter-stylelint'
   'markdown-preview-plus'
