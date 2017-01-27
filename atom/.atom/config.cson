@@ -32,6 +32,7 @@
       "Zen"
       "angularjs"
       "markdown-preview"
+      "linter-jshint"
     ]
     openEmptyEditorOnStart: false
     telemetryConsent: "no"
