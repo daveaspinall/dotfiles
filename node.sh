@@ -8,5 +8,6 @@ nvm alias default node
 # Install global node packages
 npm install -g npm@latest
 npm install -g gulp
+npm install -g gulp-cli
 npm install -g bower
 npm install -g grunt-cli
