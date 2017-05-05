@@ -16,7 +16,6 @@
       "language-csharp"
       "language-go"
       "language-java"
-      "language-mustache"
       "language-make"
       "language-objective-c"
       "language-perl"
@@ -29,7 +28,6 @@
       "styleguide"
       "metrics"
       "whitespace"
-      "Zen"
       "angularjs"
       "markdown-preview"
       "linter-jshint"
@@ -61,8 +59,12 @@
     userId: "b9301e45-0712-4ee7-ba90-a7e3f3260eb9"
   "file-icons":
     coloured: false
+  linter: {}
+  "linter-eslint": {}
+  "linter-stylelint": {}
+  "linter-ui-default":
+    showPanel: true
   "markdown-preview-plus":
-    enablePandoc: true
     pandocPath: "/usr/local/bin/pandoc"
   "tree-view":
     hideIgnoredNames: true
