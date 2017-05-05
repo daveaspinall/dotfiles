@@ -18,3 +18,6 @@ export NVM_DIR="$HOME/.nvm"
 
 # load avn
 [[ -s "$HOME/.avn/bin/avn.sh" ]] && source "$HOME/.avn/bin/avn.sh" 
+
+# yarn
+export PATH="$HOME/.yarn/bin:$PATH"
