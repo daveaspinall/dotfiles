@@ -15,3 +15,6 @@ Thumbs.db
 
 # npm
 /hyper/.hyper_plugins/node_modules/
+
+# atom config contains OAuth token
+atom/.atom/config.cson
