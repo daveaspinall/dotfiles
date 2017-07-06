@@ -31,6 +31,7 @@
       "markdown-preview"
       "linter-jshint"
       "omnisharp-atom"
+      "language-javascript"
     ]
     openEmptyEditorOnStart: false
     telemetryConsent: "no"
