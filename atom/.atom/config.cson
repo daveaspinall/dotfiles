@@ -13,7 +13,6 @@
       "language-c"
       "language-clojure"
       "language-coffee-script"
-      "language-csharp"
       "language-go"
       "language-java"
       "language-make"
@@ -31,6 +30,7 @@
       "angularjs"
       "markdown-preview"
       "linter-jshint"
+      "omnisharp-atom"
     ]
     openEmptyEditorOnStart: false
     telemetryConsent: "no"
@@ -63,9 +63,16 @@
   "linter-eslint": {}
   "linter-stylelint": {}
   "linter-ui-default":
-    showPanel: true
+    panelHeight: 69
   "markdown-preview-plus":
     pandocPath: "/usr/local/bin/pandoc"
+  "omnisharp-atom": {}
+  "sync-settings":
+    _lastBackupHash: "1c50a2da50e309c7a44a18544becb30122708f00"
+    gistDescription: "Automatic update by http://atom.io/packages/sync-settings"
+    gistId: "5790bdbb514479efcf074dc657317359"
+    personalAccessToken: "d6af81d0c41ee6ad424f5301d36e9e56f6a3f592"
+    removeObsoletePackages: true
   "tree-view":
     hideIgnoredNames: true
     squashDirectoryNames: true
