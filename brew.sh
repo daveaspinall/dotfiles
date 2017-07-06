@@ -79,6 +79,8 @@ brew install git-flow
 # brew install lynx
 brew install mysql
 brew install nvm
+brew install openssh
+brew install openssl
 # brew install p7zip
 # brew install pigz
 # brew install pv
