@@ -9,6 +9,9 @@ export PATH=/usr/local/bin:/usr/local/sbin:$PATH
 # oh my zsh
 source $ZSH/oh-my-zsh.sh
 
+# zsh plugins (need to install them separately)
+source $HOME/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+
 # z
 . ~/z.sh
 
