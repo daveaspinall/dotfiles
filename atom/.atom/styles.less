@@ -9,24 +9,26 @@
  * http://lesscss.org
  */
 
-
-/*
- * Examples
- * (To see them, uncomment and save)
- */
-
-// style the background color of the tree view
-.tree-view {
-  // background-color: whitesmoke;
-}
-
-// style the background and foreground colors on the atom-text-editor-element itself
+// atom-workspace,
 atom-text-editor {
-  // color: white;
-  // background-color: hsl(180, 24%, 12%);
+  font-family: 'OperatorMono-Light';
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.7;
 }
 
-// To style other content in the text editor's shadow DOM, use the ::shadow expression
-atom-text-editor::shadow .cursor {
-  // border-color: red;
+atom-panel.tool-panel {
+  font-size: 0.88em;
+}
+
+.editor .comment,
+atom-text-editor.editor .syntax--comment {
+  font-family: 'OperatorMono-LightItalic';
+  font-style: normal;
+}
+
+atom-text-editor::shadow {
+  .entity.other.attribute-name.html {
+    font-style: italic;
+  }
 }
