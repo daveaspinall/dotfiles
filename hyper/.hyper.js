@@ -1,7 +1,7 @@
 module.exports = {
   config: {
     // default font size in pixels for all tabs
-    fontSize: 15,
+    fontSize: 14,
 
     // font family with optional fallbacks
     fontFamily: '"Source Code Pro", "Lucida Console", monospace',
@@ -25,7 +25,7 @@ module.exports = {
     css: '',
 
     // custom css to embed in the terminal window
-    termCSS: 'x-row { line-height: 1.5em; }',
+    termCSS: 'x-row { -webkit-font-smoothing: antialiased; line-height: 1.5em; } x-row span { font-family: "SourceCodePro-Semibold", "Lucida Console", monospace; font-weight: 400 !important; }',
 
     // custom padding (css format, i.e.: `top right bottom left`)
     padding: '20px',
