@@ -1,7 +1,7 @@
 module.exports = {
   config: {
     // default font size in pixels for all tabs
-    fontSize: 14,
+    fontSize: 14.5,
 
     // font family with optional fallbacks
     fontFamily: '"Source Code Pro", "Lucida Console", monospace',
@@ -67,10 +67,15 @@ module.exports = {
     bell: 'SOUND',
 
     // if true, selected text will automatically be copied to the clipboard
-    copyOnSelect: false
+    copyOnSelect: false,
 
     // URL to custom bell
     // bellSoundURL: 'http://example.com/bell.mp3',
+
+    // hypercwd config
+    hypercwd: {
+      initialWorkingDirectory: '~/Sites',
+    }
 
     // for advanced config flags please refer to https://hyper.is/#cfg
   },
@@ -83,7 +88,8 @@ module.exports = {
   //   `project#1.0.1`
   plugins: [
     "hyperterm-base16-tomorrow-night",
-    "hyper-blink"
+    "hyper-blink",
+    "hypercwd"
   ],
 
   // in development, you can create a directory under

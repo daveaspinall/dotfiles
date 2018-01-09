@@ -13,7 +13,8 @@ Thumbs.db
 .Spotlight-V100
 .Trashes
 
-# npm
+# hyper
+/hyper/.hyper_plugins/cache/
 /hyper/.hyper_plugins/node_modules/
 
 # atom config contains OAuth token

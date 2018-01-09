@@ -8,6 +8,7 @@
   "homepage": "https://hyper.is",
   "dependencies": {
     "hyperterm-base16-tomorrow-night": "latest",
-    "hyper-blink": "latest"
+    "hyper-blink": "latest",
+    "hypercwd": "latest"
   }
 }
