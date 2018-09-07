@@ -15,6 +15,9 @@ source $HOME/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 # z
 . ~/z.sh
 
+# aliases
+. ~/.aliases
+
 # nvm
 export NVM_DIR="$HOME/.nvm"
 . "$(brew --prefix nvm)/nvm.sh"

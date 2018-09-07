@@ -1,16 +1,13 @@
 [user]
     name = Dave Aspinall
-	email = daveaasp@gmail.com
+    email = daveaasp@gmail.com
 [core]
-	excludesfile = /Users/daveaspinall/.gitignore_global
+    excludesfile = /Users/daveaspinall/.gitignore_global
     filemode = false
 [filter "lfs"]
     clean = git-lfs clean %f
     smudge = git-lfs smudge %f
     required = true
-[difftool "sourcetree"]
-	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
-	path = 
-[mergetool "sourcetree"]
-	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
-	trustExitCode = true
+[pager]
+    diff = diff-so-fancy | less --tabs=1,5 -RFX
+    show = diff-so-fancy | less --tabs=1,5 -RFX

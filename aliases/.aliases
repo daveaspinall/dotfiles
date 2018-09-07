@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+
+# Replace cat with bat
+alias cat='bat'
+
+# Combine fzf and bat for a pretty file preview
+alias preview="fzf --preview 'bat --color \"always\" {}'"
+
+# Improved grep
+alias search='ack -B'
+
+# Improved help
+alias help='tldr'
+
+# Clients
+alias oxfam='cd ~/Sites/oxfam/oxfam-main'
+alias afs='cd ~/Sites/afs/accommodationforstudents.com'
