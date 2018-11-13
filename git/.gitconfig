@@ -1,6 +1,6 @@
 [user]
     name = Dave Aspinall
-    email = daveaasp@gmail.com
+	email = dave.aspinall@codecomputerlove.com
 [core]
     excludesfile = /Users/daveaspinall/.gitignore_global
     filemode = false
