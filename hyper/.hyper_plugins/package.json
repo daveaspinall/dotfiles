@@ -7,7 +7,7 @@
   "license": "MIT",
   "homepage": "https://hyper.is",
   "dependencies": {
-    "hyperterm-base16-tomorrow-night": "latest",
+    "hyperterm-base-16-ocean": "latest",
     "hyper-blink": "latest",
     "hypercwd": "latest"
   }
