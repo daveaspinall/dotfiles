@@ -14,10 +14,3 @@ alias help='tldr'
 
 # Dotfiles
 alias dotfiles='cd ~/dotfiles'
-
-# Clients
-# alias oxfam='cd ~/Sites/oxfam/oxfam-main'
-# alias afs='cd ~/Sites/afs/accommodationforstudents.com'
-# alias gbg='cd ~/Sites/gbg/pepe'
-alias pw='cd ~/Sites/plumbs/Plumbs.Web/Plumbs.Web'
-alias pr='cd ~/Sites/plumbs/Plumbs.React'

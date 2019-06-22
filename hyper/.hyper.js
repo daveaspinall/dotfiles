@@ -1,9 +1,12 @@
+// For advanced config flags please refer to https://hyper.is/#cfg
+
 module.exports = {
   config: {
     fontSize: 14.5,
     fontFamily: "Source Code Pro, Lucida Console, monospace",
     fontWeight: "normal",
 
+    cursorBlink: true,
     cursorColor: "rgba(248,28,229,0.8)",
     cursorShape: "BEAM",
 
@@ -15,24 +18,20 @@ module.exports = {
 
     padding: "20px",
 
-    shell: "",
-    shellArgs: ["--login"],
+    shell: "/usr/local/bin/zsh",
 
     env: {},
 
     bell: "SOUND",
-    // bellSoundURL: 'http://example.com/bell.mp3',
 
     copyOnSelect: false,
 
     hypercwd: {
       initialWorkingDirectory: "~/Sites"
     }
-
-    // for advanced config flags please refer to https://hyper.is/#cfg
   },
 
-  plugins: ["hyperterm-base-16-ocean", "hyper-blink", "hypercwd"],
+  plugins: ["hyperterm-base-16-ocean", "hypercwd"],
 
   localPlugins: []
 };
