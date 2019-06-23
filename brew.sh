@@ -39,6 +39,7 @@ brew cask install 1password
 brew cask install alfred
 brew cask install bartender
 brew cask install brave
+brew cask install dotnet-sdk
 brew cask install dropbox
 brew cask install hyper
 brew cask install slack
