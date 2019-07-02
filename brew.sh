@@ -29,6 +29,7 @@ brew install rename
 brew install stow
 brew install tldr
 brew install tree
+brew install webp
 brew install wget
 brew install yarn
 brew install zsh
